@@ -30,7 +30,7 @@ export default function FooterCom() {
                 </Footer.Link>
                 <Footer.Link
                   href='/about'
-                  target='_blank'
+                  
                   rel='noopener noreferrer'
                 >
                   Lakhan's Blog
@@ -47,7 +47,7 @@ export default function FooterCom() {
                 >
                   Github
                 </Footer.Link>
-                <Footer.Link href='#'>Discord</Footer.Link>
+                <Footer.Link href='https://discord.com/channels/1237472896453185556/1237472896453185558' rel='noopener noreferrer' target='_blank'> Discord</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
