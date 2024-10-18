@@ -116,7 +116,7 @@ export default function CreatePost() {
           />
           <Button
             type='button'
-            gradientDuoTone='purpleToBlue'
+            bg-gradient-to-r from-teal-300 via-white-500
             size='sm'
             outline
             onClick={handleUpdloadImage}
@@ -151,7 +151,7 @@ export default function CreatePost() {
             setFormData({ ...formData, content: value });
           }}
         />
-        <Button type='submit' gradientDuoTone='purpleToPink'>
+        <Button type='submit' bg-gradient-to-r from-teal-300 via-white-500>
           Publish
         </Button>
         {publishError && (
