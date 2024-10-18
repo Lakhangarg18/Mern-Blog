@@ -30,7 +30,7 @@ export default function SignUp() {
       }
       setLoading(false);
       if(res.ok) {
-        navigate('/signin');
+        navigate('/sign-in');
       }
     } catch (error) {
       setErrorMessage(error.message);
@@ -43,7 +43,7 @@ export default function SignUp() {
         {/* left */}
         <div className='flex-1'>
           <Link to='/' className='font-bold dark:text-white text-4xl'>
-            <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
+            <span className='px-2 py-1 bg-gradient-to-r from-teal-300 via-white-500 rounded-lg text-white'>
               Lakhan's
             </span>
             Blog
@@ -85,7 +85,7 @@ export default function SignUp() {
               />
             </div>
             <Button
-              gradientDuoTone='purpleToPink'
+               from-teal-300 via-white-500
               type='submit'
               disabled={loading}
             >
@@ -102,7 +102,7 @@ export default function SignUp() {
           </form>
           <div className='flex gap-2 text-sm mt-5'>
             <span>Have an account?</span>
-            <Link to='/signin' className='text-blue-500'>
+            <Link to='/sign-in' className='text-blue-500'>
               Sign In
             </Link>
           </div>
