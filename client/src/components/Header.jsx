@@ -64,7 +64,7 @@ export default function Header() {
           type='text'
           placeholder='Search...'
           rightIcon={AiOutlineSearch}
-          className='inline'
+          className='hidden lg:inline'
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
@@ -74,7 +74,7 @@ export default function Header() {
       </Button> */}
       <div className='flex gap-2 md:order-2'>
         <Button
-          className='w-12 h-10 bg-gradient-tot-r from-teal-500 via-white-500  to-teal-400 inline'
+          className=' w-12 h-10 '
           color='gray'
           pill
           onClick={() => dispatch(toggleTheme())}
@@ -103,7 +103,7 @@ export default function Header() {
           </Dropdown>
         ) : (
           <Link to='/sign-in'>
-            <Button gradientDuoTone='purpleToBlue' outline>
+            <Button  bg-gradient-to-r from-teal-500 via-whte-500 to-teal-400 outline>
               Sign In
             </Button>
           </Link>
