@@ -10,7 +10,7 @@ export default function FooterCom() {
               to="/"
               className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white"
             >
-              <span className="px-2 py-1 bg-gradient-to-r from-teal-300 via-white-500 rounded-lg text-white">
+              <span className="px-2 py-1 bg-gradient-to-r from-teal-500 via-white-500 to-teal-400 rounded-lg text-white">
                 Lakhan's
               </span>
               Blog
